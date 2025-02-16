@@ -1,0 +1,20 @@
+{
+    "name": "app",
+    "version": "0.0.0",
+    "private": true,
+    "main": "src/main.js",
+    "bin": "src/main.js",
+    "scripts": {
+        "build": "pkg --public --no-bytecode ./"
+    },
+    "devDependencies": {
+        "@yao-pkg/pkg": "^6.2.0"
+    },
+    "pkg": {
+        "scripts": "src/",
+        "targets": [
+            "node22-linux"
+        ],
+        "outputPath": "./dist/"
+    }
+}

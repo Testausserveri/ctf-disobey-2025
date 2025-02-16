@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+    node:
+        image: node:22
+        command: node main.js
+        working_dir: /app
+        volumes:
+            - .:/app
+        ports:
+            - 53:53
+        restart: always

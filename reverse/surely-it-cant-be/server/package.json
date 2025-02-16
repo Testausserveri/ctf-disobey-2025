@@ -1,0 +1,9 @@
+{
+    "name": "app",
+    "version": "0.0.0",
+    "private": true,
+    "main": "main.js",
+    "dependencies": {
+        "dns2": "^2.1.0"
+    }
+}
