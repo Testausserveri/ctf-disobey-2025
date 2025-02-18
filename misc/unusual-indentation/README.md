@@ -1,8 +1,8 @@
 # Unusual indentation
 
-## Difficulty rating (1-5, 5 is very hard), Category
+## Difficulty rating, Category
 
-1, Misc.
+easy, Misc
 
 ## General description of challenge (NOT GIVEN TO PLAYERS)
 

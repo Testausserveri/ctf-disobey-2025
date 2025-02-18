@@ -1,6 +1,6 @@
-# Name
+# Distinguisher authentication
 
-## Difficulty rating (1-5, 5 is very hard), Category
+## Difficulty rating, Category
 
 medium, Crypto
 

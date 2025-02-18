@@ -1,6 +1,6 @@
-# Name
+# Holy hash 1
 
-## Difficulty rating (1-5, 5 is very hard)
+## Difficulty rating, Category
 
 medium, Crypto
 

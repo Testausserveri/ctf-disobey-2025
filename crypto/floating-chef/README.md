@@ -1,4 +1,4 @@
-# Name
+# Floating chef
 
 ## Difficulty rating, Category
 

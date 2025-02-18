@@ -1,6 +1,6 @@
 # Holy hash 2
 
-## Difficulty rating (1-5, 5 is very hard), Category
+## Difficulty rating, Category
 
 hard, Crypto
 
