@@ -21,7 +21,7 @@ Flag format: DISOBEY\[a-zA-Z0-9_\]
 
 ## Flag
 
-DISOBEY\[WOw_5o_ES0T3Ric\] (Actually in the comp. the implementation was a bit broken so the closest one gets to the full solution is DISOBEY\[WOw_5o_ES0T3Ric\])
+DISOBEY\[WOw_5o_ES0T3Ric\] (Actually in the comp. the implementation was a bit broken so the closest one gets to the full solution is DISOBEY\[WOw_5o_ES0T3R4c\])
 
 ## Solution
 
