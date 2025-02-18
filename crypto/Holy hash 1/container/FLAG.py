@@ -1,0 +1,1 @@
+FLAG = "DISOBEY[a_V3ry_HO1y_hA5h_1Nd33d]"

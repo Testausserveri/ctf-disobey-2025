@@ -1,0 +1,9 @@
+services:
+  dist_auth_service:
+    build:
+      context: .
+      dockerfile: ./container/DockerFile
+    privileged: true
+    ports:
+      - "5786:5786"
+

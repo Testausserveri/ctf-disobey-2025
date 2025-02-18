@@ -1,0 +1,29 @@
+function main() {
+  x := 1 == 1;
+  if(x) {
+    print_char 'D';
+    print_char 'I';
+    print_char 'S';
+    print_char 'O';
+    print_char 'B';
+    print_char 'E';
+    print_char 'Y';
+    print_char '[';
+  }
+  print_char 'W';
+  print_char 'O';
+  print_char 'w';
+  print_char '_';
+  print_char '5';
+  print_char 'o';
+  print_char '_';
+  print_char 'E';
+  print_char 'S';
+  print_char '0';
+  print_char 'T';
+  print_char '3';
+  print_char 'R';
+  print_char 'i';
+  print_char 'c';
+  print_char ']';
+  }

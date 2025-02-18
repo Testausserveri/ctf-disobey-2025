@@ -1,0 +1,11 @@
+function main() {
+  print_char '1';
+  print_char ' ';
+  print_char '+';
+  print_char ' ';
+  print_char '1';
+  print_char ' ';
+  print_char '=';
+  print_char ' ';
+  print_char '2';
+}

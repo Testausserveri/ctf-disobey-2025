@@ -1,0 +1,15 @@
+# Set up python
+FROM python:slim AS python
+RUN pip install --no-cache-dir pycryptodome
+
+# Now setting up the actual container
+FROM ghcr.io/google/nsjail/nsjail:latest
+
+COPY --from=python / /chroot
+RUN groupadd -g 1337 ctf && useradd -r -u 1337 -g ctf ctf && \
+    mkdir -p /chroot/home/ctf/
+COPY container/FLAG.py /chroot/home/ctf/
+COPY container/service.py /chroot/home/ctf/
+RUN chmod +x /chroot/home/ctf/service.py
+ENTRYPOINT nsjail --port 5787 --chroot /chroot/ --user 1337 --group 1337 --cwd /home/ctf/ --tmpfsmount /tmp --bindmount_ro /etc/resolv.conf:/etc/resolv.conf --time_limit 600 /home/ctf/service.py
+

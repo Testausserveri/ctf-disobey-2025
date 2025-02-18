@@ -1,0 +1,8 @@
+services:
+  holy_hash1:
+    build:
+      context: .
+      dockerfile: ./container/DockerFile
+    privileged: true
+    ports:
+      - "5787:5787"
